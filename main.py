@@ -12,6 +12,6 @@ hero_3 = response[506]['powerstats']['intelligence']
 if hero_1 < hero_2 < hero_3:
     print('Самый умный Thanos')
 elif hero_1 > hero_2 > hero_3:
-    print('Самый умный Hulk')
-else:
     print('Самый умный Captain America')
+else:
+    print('Самый умный Hulk')
